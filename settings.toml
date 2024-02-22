@@ -1,0 +1,7 @@
+[default]
+
+[testing]
+TMP_ROOT_DIR="/tmp/mypkg/tests"
+
+[production]
+# For production we'll just use [default] and some env vars from Dockerfile
