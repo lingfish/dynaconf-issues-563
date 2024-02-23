@@ -33,4 +33,4 @@ jobs:
         ls -l ${{ github.workspace }}
     - name: Test with pytest
       run: |
-        pytest -v tests.py
+        pytest -v tests.py tests_validate_on_update.py
